@@ -72,8 +72,8 @@
 ```
 
 **验证方式（按情况选择）：**
-- 运行已有测试：`npm test` / `pytest` / `go test ./...`
-- 执行 lint 检查：`eslint` / `ruff` / `golangci-lint`
+- 运行已有测试：`ctest` / `make test` / `./tests/test_xxx`
+- 执行静态检查：`clang-tidy` / `cppcheck` / 项目已有检查脚本
 - 手动复现步骤：按用户描述的触发路径验证
 - 检查关键日志输出
 

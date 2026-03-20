@@ -31,16 +31,16 @@
 | 系统章节生成            | codegen-doc     | 「根据当前项目生成系统总体设计章节」                                      |
 | 答辩 PPT / 通用汇报 PPT | pptgen-drawio   | 「帮我做答辩 PPT，论文在 xxx」「根据这个大纲生成汇报 PPT」                     |
 | 模型架构图 / 流程图       | drawio-diagram  | 「画一个 Transformer 架构图」「做一张算法流程图」                         |
-| 图片风格迁移            | drawio-diagram  | 「按这张参考图的风格画」「参考图+描述：画一个三层系统，前端 Vue、后端 Spring、数据库 MySQL」 |
+| 图片风格迁移            | drawio-diagram  | 「按这张参考图的风格画」「参考图+描述：画一个三层系统，C++ 客户端、C 服务、SQLite 数据库」 |
 | 技术栈图              | codegen-diagram | 「根据当前项目画技术栈结构图」                                         |
 | 系统架构图             | codegen-diagram | 「画我们系统的四层架构图」                                           |
 | 数据结构图             | codegen-diagram | 「根据代码生成数据结构图」                                           |
 | E-R 图             | codegen-diagram | 「根据数据库表结构画 E-R 图」                                       |
 
 
-> **paper-write**：统一 Skill，**理工（science-*）与文科（liberal-*）命名区分**。支持大纲审核（理工/文科）、结构仿写（理工：绪论/摘要/实验；文科：绪论/摘要/文献综述/案例分析/对策）、参考文献、润色（通用/实验章节/文科章节）、扩写/缩写、防 AIGC、中英互译、结构化信息提取。  
-> **codegen-diagram**：统一 Skill，根据用户表述自动匹配技术栈图、系统架构图、数据结构图、E-R 图。  
-> **codegen-doc**：统一 Skill，匹配论文章节、项目梳理、重点问题、简历项目描述。  
+> **paper-write**：统一 Skill，**理工（science-*）与文科（liberal-*）命名区分**。支持大纲审核（理工/文科）、结构仿写（理工：绪论/摘要/实验；文科：绪论/摘要/文献综述/案例分析/对策）、参考文献、润色（通用/实验章节/文科章节）、扩写/缩写、防 AIGC、中英互译、结构化信息提取。
+> **codegen-diagram**：统一 Skill，根据用户表述自动匹配技术栈图、系统架构图、数据结构图、E-R 图。
+> **codegen-doc**：统一 Skill，匹配论文章节、项目梳理、重点问题、简历项目描述。
 > **pptgen-drawio**：支持论文答辩与通用汇报两种模式，输出 .drawio 后可用 drawio2pptx 导出 .pptx。
 
 ## 开发流程五步法
