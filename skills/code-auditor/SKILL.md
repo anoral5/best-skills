@@ -1,6 +1,6 @@
 ---
 name: code-auditor
-description: Performs comprehensive codebase analysis covering architecture, code quality, security, performance, testing, and maintainability. Use when user wants to audit code quality, identify technical debt, find security issues, assess test coverage, or get a codebase health check.
+description: Performs comprehensive codebase analysis covering architecture, code quality, security, performance, testing, and maintainability. Use when user wants to audit code quality, identify technical debt, find security issues, assess test coverage, or get a codebase health check. 当用户提到代码审计、代码质量、技术债、安全审计、测试覆盖率、代码库健康检查时使用。
 ---
 
 # Code Auditor
