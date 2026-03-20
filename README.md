@@ -98,11 +98,11 @@
 ## 工具与扩展
 
 
-| 用途                | Skill                | 示例 Prompt                          |
-| ----------------- | -------------------- | ---------------------------------- |
-| 代码审查（多语言）         | code-review-skill    | 「审查这段 C 代码」「按 C++ 规范 review」 |
-| Skill 创建          | skill-create         | 「我经常要审查论文，帮我创建一个 Skill」            |
-| Skill 与 Prompt 互转 | skill-prompt-convert | 「把这个 Skill 转成聊天框可用的 Prompt」        |
+| 用途                | Skill                | 示例 Prompt                                |
+| ----------------- | -------------------- | ---------------------------------------- |
+| 代码审计 / 代码库健康检查    | code-auditor         | 「审计这个仓库的代码质量」「做一次 security audit」         |
+| Skill 创建          | skill-create         | 「我经常要审查论文，帮我创建一个 Skill」                  |
+| Skill 与 Prompt 互转 | skill-prompt-convert | 「把这个 Skill 转成聊天框可用的 Prompt」              |
 
 
 ## 使用方式
