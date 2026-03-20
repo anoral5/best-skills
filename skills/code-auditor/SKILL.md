@@ -11,8 +11,8 @@ Comprehensive codebase analysis covering architecture, code quality, security, p
 
 - "audit the code"
 - "analyze code quality"
-- "check for issues"
-- "review the codebase"
+- "audit the codebase"
+- "run a code health audit"
 - "find technical debt"
 - "security audit"
 - "performance review"
@@ -129,9 +129,9 @@ Comprehensive codebase analysis covering architecture, code quality, security, p
 
 ## Integration
 
-- **feature-planning**: Plan technical debt reduction
-- **test-fixing**: Address test gaps identified
-- **project-bootstrapper**: Set up quality tooling
+- **dev-workflow**: Turn audit findings into scoped bug-fix or implementation tasks
+- **codegen-doc**: Generate technical debt, risk, or project issue summaries from audit results
+- **md-report-summary**: Convert audit findings into Markdown reports or periodic quality summaries
 
 ## Configuration
 
